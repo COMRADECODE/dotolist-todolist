@@ -1,0 +1,11 @@
+/* pop-up.component.css */
+.custom-textarea {
+    height: 200px;
+    width: 300px;
+  }
+  .container{
+    background-color: aliceblue;
+  }
+  h1{
+    color: black;
+  }

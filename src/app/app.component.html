@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <mat-drawer-container class="example-container">
+    <mat-drawer class="nav-class" #drawer>
+      <div class="d-flex flex-column mb-3">
+        <button class="btn btn-light ">Docket</button>
+        <!-- <button  class="plus-button btn btn-dark mt-5 mx-auto text-center">+</button> -->
+        <button  class="mat-mini-fab mt-5 mx-auto" (click)="openDialog()">+</button>
+        <!-- <div class="dropdown-menu">
+          <a class="dropdown-item" href="#" (click)="changeColor('red')">Red</a>
+          <a class="dropdown-item" href="#" (click)="changeColor('blue')">Blue</a>
+          <a class="dropdown-item" href="#" (click)="changeColor('green')">Green</a>
+        </div> -->
+      </div>
+    </mat-drawer>
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+
+          <div class="d-flex justify-content-end" id="navbarSupportedContent">
+            <button mat-raised-button class="btn btn-danger me-2" (click)="drawer.toggle()">Add Notes</button>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </mat-drawer-container>
+</div>

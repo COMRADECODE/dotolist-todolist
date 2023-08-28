@@ -1,0 +1,18 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+  }
+.nav-class{
+    background-color: #eee;
+}
+.plus-button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 1.6;
+    border-radius: 25px;
+  }

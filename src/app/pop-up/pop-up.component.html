@@ -1,0 +1,24 @@
+<div class="container">
+
+<h1>Type your notes here</h1>
+<mat-form-field >
+    <mat-label>Notes</mat-label>
+    <textarea matInput
+              cdkTextareaAutosize
+              #autosize=""
+              class="custom-textarea"
+              [(ngModel)]="textAreaValue"></textarea>
+  </mat-form-field>
+  <div class="d-flex">
+
+  
+  <button class="btn btn-danger me-2" (click)="onSave()">
+Save
+  </button>
+  <button class="btn btn-light" (click)="onCancel()">
+    Cancel
+      </button>
+    </div>
+
+
+</div>
